@@ -1,0 +1,6 @@
+framework module YKNetTool {
+  umbrella header "YKNetTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

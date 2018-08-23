@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YKNetTool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '网络请求框架'
 
 # This description is used to generate tags and improve search results.
@@ -26,11 +26,12 @@ Pod::Spec.new do |s|
   s.author           = { 'hesong_ios@163.com' => 'hesong_ios@163.com' }
   s.source           = { :git => 'https://github.com/tukzi/YKNetTool.git', :tag => s.version.to_s }
 
-   s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '7.0'
 
-   s.source_files = 'YKNetTool/**/*'
+  s.source_files = 'YKNetTool/**/*'
 
-   s.public_header_files = 'YKNetTool/**/*.h'
-   s.frameworks = 'UIKit', 'Foundation'
-   s.dependency 'AFNetworking'
+  s.public_header_files = 'YKNetTool/**/*.h'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'AFNetworking', '3.0.0'
+
 end

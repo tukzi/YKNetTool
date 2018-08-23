@@ -3,6 +3,5 @@
 target 'YKNetTool_Example' do
     
   pod 'YKNetTool', :path => '../'
-  pod 'AFNetworking'
 
 end
